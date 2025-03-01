@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-size: 16pt;
+    font-family: "Noto Sans", serif;
+    line-height: 1.4;
+    color:#444;
+    background-color:#eee ;
+    
+}
+hr{
+    color:#444;
+}
+h1{
+    font-size: 36pt;
+    font-weight: bold;
+}
+h2{
+    font-size: 24pt;
+    font-weight: bold;
+
+}
+h3{
+    font-style: italic;
+    font-size: 18pt;
+    font-weight: 300;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+button{
+    background-color: #444;
+    color: #eee;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    text-align: center;
+    text-transform: none;
+}
+button:hover,
+button:focus {
+    opacity: .75;
+}
+
+.minimalLink{
+    color:#444;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.minimalLink:hover,
+.minimalLink:focus{
+    transform: scale(1.5);
+}
+.block{
+    padding:5%;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: wrap;
+  }
+.flexLeft{
+    flex:50%;
+}
+.flexRight{
+    flex:50%;
+}
+@media (max-width:800px){
+    .flexLeft, .flexLeft{
+        flex:100%;
+    }
+}
+#headerSect{
+    padding-left: 5%;
+}
+.emailCont{
+    display: flex;
+    flex-direction: wrap;
+}
+#workMail{
+    flex: 50%;
+}
+#persMail{
+    flex: 50%;
+}
+
