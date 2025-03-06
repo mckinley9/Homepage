@@ -5,12 +5,12 @@ body{
     font-size: 16pt;
     font-family: "Noto Sans", serif;
     line-height: 1.4;
-    color:#444;
-    background-color:#eee ;
+    color:#5D4B3A;
+    background-color:#EAE8E2 ;
     
 }
 hr{
-    color:#444;
+    color:#5D4B3A;
 }
 h1{
     font-size: 36pt;
@@ -33,7 +33,7 @@ ul{
 }
 
 .minimalLink{
-    color:#444;
+    color:#5D4B3A;
     text-decoration: none;
     transition: transform 0.3s ease;
 }
