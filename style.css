@@ -3,12 +3,12 @@ body{
     font-size: 16pt;
     font-family: "Noto Sans", serif;
     line-height: 1.4;
-    color:#5D4B3A;
-    background-color:#EAE8E2 ;
+    color:#34281e;
+    /*background-color:#EAE8E2 ;*/
     
 }
 hr{
-    color:#5D4B3A;
+    color:#282019;
 }
 h1{
     font-size: 36pt;
@@ -30,6 +30,15 @@ ul{
     padding:0;
 }
 
+.masthead{
+    height:100vh;
+    min-height: 500px;
+    background-image: url("/Images/HansThoma.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .minimalLink{
     color:#5D4B3A;
     text-decoration: none;
@@ -47,7 +56,8 @@ ul{
     display: flex;
     flex-direction: wrap;
   }
-.flexLeft{
+/*
+  .flexLeft{
     flex:50%;
 }
 .flexRight{
@@ -66,9 +76,12 @@ ul{
     flex-direction: wrap;
 }
 #workMail{
+
     flex: 50%;
 }
 #persMail{
     flex: 50%;
 }
+    
 
+*/
