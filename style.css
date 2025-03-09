@@ -33,7 +33,7 @@ ul{
 }
 
 .masthead{
-    height:100vh;
+    height:30vh;
     min-height: 500px;
     background-image: url("/Images/HansThoma.jpg");
     background-size: cover;
